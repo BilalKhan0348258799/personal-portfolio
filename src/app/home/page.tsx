@@ -1,6 +1,6 @@
 // src/app/home/page.tsx
 import React from 'react';
-import styles from '../styles/Home.module.css';
+import styles from '../../styles/Home.module.css';
 
 const Home: React.FC = () => {
   return (
@@ -37,7 +37,7 @@ const Home: React.FC = () => {
         </div>
 
         <div className={styles.section}>
-          <h3 className={styles.sectionTitle}>Education</h3>
+          <h3 className={styles.educationTitle}>Education</h3>
           <p>
             <strong>Bachelor of Science in Computer Science (BSCS)</strong> <br />
             Well-Known University | 2020 - Present <br />
@@ -81,7 +81,6 @@ const Home: React.FC = () => {
 };
 
 export default Home;
-
 
 
 
