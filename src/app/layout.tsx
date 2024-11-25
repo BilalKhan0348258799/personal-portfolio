@@ -3,7 +3,7 @@
 import './globals.css';
 import { Inter } from 'next/font/google';
 import { ReactNode } from 'react';
-import styles from '../styles/Home.module.css';  // Import the CSS module
+import styles from '../Home.module.css';  // Import the CSS module
 
 const inter = Inter({ subsets: ['latin'] });
 
